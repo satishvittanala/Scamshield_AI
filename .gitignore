@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+ENV/
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# Uploads & Temp Files
+uploads/*
+!uploads/.gitkeep
+tmp/
+temp/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Machine Learning Artifacts (optional local models)
+ml/saved_models/*.pkl
+!ml/saved_models/.gitkeep
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
