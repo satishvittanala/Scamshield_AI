@@ -1,0 +1,64 @@
+# ScamShield AI
+
+Multi-Modal AI Scam Detection & Risk Intelligence Platform
+
+ScamShield AI is a multi-modal scam detection platform that analyzes SMS/text, URLs, screenshots, and social-engineering conversations to identify potential scams and generate a 0–100 risk score with explanations.
+
+## Features
+
+- Text & SMS Scam Detection
+- URL & Typosquatting Detection
+- Screenshot OCR Analysis
+- Multi-Turn Scam Conversation Analysis
+- Multilingual Support – English, Hindi, Tamil & Telugu
+- Risk Score & Threat Level
+- Explainable AI using SHAP
+- Threat Intelligence Dashboard
+- User Authentication & Scan History
+- Admin Security & Incident Reporting
+
+## Tech Stack
+
+Backend: Python, FastAPI
+ML: Scikit-learn, XGBoost, SHAP
+OCR: Tesseract, Pillow
+Database: SQLite, SQLAlchemy
+Frontend: HTML, CSS, Bootstrap, JavaScript, Chart.js
+Security: JWT, Bcrypt
+
+## How It Works
+
+User Input
+→ Text / URL / Screenshot / Conversation
+→ Detection & Feature Extraction
+→ Risk Scoring Engine
+→ Threat Classification
+→ Explanation + Security Recommendation
+
+## Run Locally
+
+git clone https://github.com/your-username/scamshield-ai.git
+cd scamshield-ai
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install -r requirements.txt
+python run.py
+
+Application: http://127.0.0.1:8000
+API Documentation: http://127.0.0.1:8000/docs
+
+## Project Objective
+
+The goal is to provide more than a simple Safe/Scam label by identifying suspicious indicators, calculating risk, explaining the prediction, and providing actionable security recommendations.
+
+## Disclaimer
+
+This project is an academic/final-year project. Model performance depends on the available demonstration dataset and should not be considered production-level security performance.
+
+## Project
+
+ScamShield AI – Multi-Modal AI Scam Detection & Risk Intelligence Platform
+
+B.Tech Final Year Project – 2026
